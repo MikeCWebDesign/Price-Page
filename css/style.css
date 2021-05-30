@@ -231,3 +231,29 @@ h5 {
   }
 
 }
+
+/* MD SECTION  */
+
+@media (max-width: 768px) {
+
+  .img1 {
+    height: 45%;
+  }
+
+  .font2 {
+    font-size: 0.9rem;
+  }
+
+  .font1, p {
+    font-size: 0.65rem;
+  }
+
+  div.col-2.txt-cntr {
+    padding: 0 5px;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+}
