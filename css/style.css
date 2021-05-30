@@ -149,7 +149,9 @@ h5 {
 /* FOOTER SECTION */
 
 .mrgleft {
-  padding-left: 3rem;
+  padding-left: 1rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* MEDIA QUERY */
@@ -219,7 +221,7 @@ h5 {
   }
 
   .img1 {
-    height: 63.8%;
+    height: 50%;
   }
 
   .footer-font {
@@ -230,14 +232,24 @@ h5 {
     font-size: 0.8rem;
   }
 
+  .mrgleft {
+    padding-left: 1rem;
+    text-align: center;
+  }
+
 }
 
 /* MD SECTION  */
 
 @media (max-width: 768px) {
 
+  html, body {
+    height: 100%;
+  }
+
   .img1 {
-    height: 45%;
+    height: 40%;
+    margin-top: 25%;
   }
 
   .font2 {
@@ -245,15 +257,98 @@ h5 {
   }
 
   .font1, p {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   div.col-2.txt-cntr {
-    padding: 0 5px;
+    padding: 0 2px;
   }
 
   h5 {
     font-size: 1.1rem;
+  }
+
+  small {
+    font-size: 0.6rem;
+  }
+
+  .h5 {
+    font-size: 1rem;
+  }
+
+  .img2 {
+    height: 20px;
+    width: 20px;
+  }
+
+  .img5, .img4 {
+    height: 20px;
+    width: 20px;
+  }
+
+  .card-padding {
+    padding: 1rem 25%;
+  }
+
+  .first-card {
+    height: 300px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .btn-pad {
+    padding: 5% 15%;
+  }
+
+  .pad2 {
+    height: 365px;
+  }
+
+  #First-Section {
+    margin-top: 1.5rem;
+  }
+
+  .btn-sm {
+    font-size: 0.8rem;
+  }
+
+  div.row.mb-2 {
+    padding: 0 15%;
+  }
+
+#footer-section {
+  margin-top: 900px;
+}
+
+.nav-item {
+  padding: 0;
+}
+
+.mrgleft {
+  text-align: center;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+}
+
+/* IPHONE XS MAX  */
+
+@media (max-width: 414px) {
+
+  .card-padding {
+    padding: 1rem 10%;
+  }
+
+  .mrgleft {
+    padding-left: 0.5rem;
+    text-align: center;
+  }
+
+  #navbarNav {
+    margin: 0 35%;
   }
 
 }
